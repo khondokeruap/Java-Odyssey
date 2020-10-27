@@ -4,6 +4,7 @@ public class WordGame {
     static Scanner reader = new Scanner(System.in);
     public static void main(String args[]){
     eassy();
+        System.out.println("Thank you for using the app. have a nice day !");
              }
     public static String pName(){
         String fName,mName,lName, fullName;
@@ -14,8 +15,7 @@ public class WordGame {
         System.out.println("Please Enter your last name:  ");
         lName = reader.nextLine();
         fullName=fName+" "+mName+" "+lName;
-        System.out.println(fullName);
-        return fullName;
+         return fullName;
     }
     public static String fullAddress(){
         System.out.println("Please Enter The name of your street ");
@@ -25,7 +25,7 @@ public class WordGame {
         System.out.println("Please Enter The name of your state name");
         String state =reader.nextLine();
         String address= street+" "+city+" "+state+ " ";
-        System.out.println(address);
+
         return address;
     }
     public static int age(){
@@ -38,13 +38,13 @@ public class WordGame {
     public static String school() {
         System.out.println("Please Enter The name of your University/College: ");
         String college = reader.nextLine();
-        System.out.println(college);
+
         return college;
     }
     public static String profession() {
         System.out.println("Please Enter Your profession ");
         String profession= reader.nextLine();
-        System.out.println(profession);
+
         return profession;
     }
     public static String pet() {
@@ -64,4 +64,5 @@ public class WordGame {
                 name + " graduated and went to work as " +profession()+". " +
         "\n" +"Then " +name +" adopted a "+ pet()+ " named "+pet_name()+". They both lived happily ever after.");
     }
+
 }
