@@ -4,7 +4,7 @@ public class WordGame {
     static Scanner reader = new Scanner(System.in);
     public static void main(String args[]){
     eassy();
-        }
+             }
     public static String pName(){
         String fName,mName,lName, fullName;
         System.out.println("Please Enter your first name:  ");

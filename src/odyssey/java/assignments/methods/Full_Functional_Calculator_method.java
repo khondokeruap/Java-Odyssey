@@ -7,6 +7,7 @@ public class Full_Functional_Calculator_method {
     public static void main(String args[]) {
         calculator();
     }
+
         public static void calculator(){
         int i = 1;
         int choice;
