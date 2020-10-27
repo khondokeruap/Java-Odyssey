@@ -1,4 +1,4 @@
-package src.odyssey.java.assignments.methods;
+package src.odyssey.java.assignments.methods.w3Resource;
 
 import java.util.Scanner;
 
