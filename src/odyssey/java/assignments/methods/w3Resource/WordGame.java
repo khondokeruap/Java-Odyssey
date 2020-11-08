@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class WordGame {
     static Scanner reader = new Scanner(System.in);
     public static void main(String args[]){
-    eassy();
-        System.out.println("Thank you for using the app. have a nice day !");
+        eassy();
+        System.out.println("\nThank you for using the app. have a nice day !");
              }
     public static String pName(){
         String fName,mName,lName, fullName;
