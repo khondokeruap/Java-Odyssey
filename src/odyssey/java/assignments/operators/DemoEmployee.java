@@ -1,6 +1,6 @@
 package src.odyssey.java.assignments.operators;
 
-public class Back_Employee {
+public class DemoEmployee {
     // Field
     String fName;
     String lName;
@@ -9,7 +9,7 @@ public class Back_Employee {
     String department;
 
     //  Constructor no argument
-    public Back_Employee() {
+    public DemoEmployee() {
 
         this.fName = "Default First name ";
         this.lName = "Default Last name ";
@@ -18,7 +18,7 @@ public class Back_Employee {
         this.department = "Default Department ";
     }
     // two argument
-    public Back_Employee (String fName, String lName) {
+    public DemoEmployee (String fName, String lName) {
 
         this.fName = fName;
         this.lName = lName;
@@ -27,7 +27,7 @@ public class Back_Employee {
         this.department = "Default Department ";
     }
     // three argument
-    public Back_Employee (String fName, String lName, String dob) {
+    public DemoEmployee (String fName, String lName, String dob) {
 
         this.fName = fName;
         this.lName = lName;
@@ -36,7 +36,7 @@ public class Back_Employee {
         this.department = "Default Department ";
     }
     // four argument
-    public Back_Employee (String fName, String lName, String dob, String title) {
+    public DemoEmployee (String fName, String lName, String dob, String title) {
 
         this.fName = fName;
         this.lName = lName;
@@ -45,7 +45,7 @@ public class Back_Employee {
         this.department = "Default Department ";
     }
     // five argument
-    public Back_Employee (String fName, String lName, String dob, String title, String department) {
+    public DemoEmployee (String fName, String lName, String dob, String title, String department) {
 
         this.fName = fName;
         this.lName = lName;
